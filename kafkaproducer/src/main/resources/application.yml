@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: kafka-producer
+  datasource:
+    url: jdbc:mysql://localhost:3306/producer
+    username: root
+    password: '!akfwk1276'
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+
+server:
+  #  port: 0
+  port: 8082
