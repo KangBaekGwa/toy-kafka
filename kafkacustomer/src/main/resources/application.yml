@@ -1,0 +1,20 @@
+#spring.application.name=kafkacustomer
+
+spring:
+  application:
+    name: kafka-customer
+  datasource:
+    url: jdbc:mysql://localhost:3306/customer
+    username: root
+    password: 1234
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+
+server:
+#  port: 0
+  port: 8081
