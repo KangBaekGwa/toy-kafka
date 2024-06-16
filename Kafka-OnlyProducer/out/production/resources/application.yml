@@ -1,0 +1,8 @@
+#spring.application.name=Kafka-OnlyProducer
+
+spring:
+  application:
+    name: kafka-OnlyProducer
+
+server:
+  port : 9100

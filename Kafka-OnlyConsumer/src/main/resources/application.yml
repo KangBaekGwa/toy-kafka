@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: Kafka-OnlyConsumer
+
+
+kafka:
+  bootstrap-server: ${KAFKA-SERVER}
+
+server:
+  port: 9001
